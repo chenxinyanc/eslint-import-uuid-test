@@ -1,0 +1,14 @@
+lib/
+dist/
+node_modules
+
+# We are using yarn.
+package-lock.json
+yarn-error.log
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
