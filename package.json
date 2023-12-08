@@ -1,0 +1,23 @@
+{
+  "name": "eslint-import-uuid-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@4.0.2",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-import": "^2.29.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
